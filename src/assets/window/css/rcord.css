@@ -1,0 +1,33 @@
+.el-container {
+    height: 100vh;
+}
+.el-header {
+    padding: 0;
+}
+.el-main {
+    padding: 0;
+    height: 100%;
+}
+.el-footer {
+    padding: 0;
+    background-color: #373d41;
+}
+.el-carousel__item h3 {
+    color: #475669;
+    font-size: 18px;
+    opacity: 0.75;
+    line-height: 300px;
+    margin: 0;
+}
+.el-carousel__item:nth-child(2n) {
+    background-color: #99a9bf;
+}
+.el-carousel__item:nth-child(2n+1) {
+    background-color: #d3dce6;
+}
+.el-row {
+    background-color: #fff;
+}
+.el-menu--horizontal>.el-menu-item.is-active {
+    border-bottom: 2px solid #bb1b23;
+}

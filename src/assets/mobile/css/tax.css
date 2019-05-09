@@ -1,0 +1,11 @@
+*,body.html{margin:0px;padding:0px;font-size:0.32rem;color:#383838;font-family: 'Avenir', Helvetica, Arial, sans-serif;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+img{display:inline-block;border:none;}
+a{-webkit-tap-highlight-color: rgba(0,0,0,0);}
+.flex{flex:1;display:flex;display:-webkit-flex;justify-content:center;-webkit-justify-content:center;align-content:center;-webkit-align-content:center;}
+.flex-row{display:flex;display:-webkit-flex;flex-direction:row;-webkit-flex-direction:row;}
+.flex-warp{display:flex;display:-webkit-flex;flex-direction:row;-webkit-flex-direction:row;flex-wrap:wrap;-webkitflex-wrap:wrap;}
+.flex-column{display:flex;display:-webkit-flex;flex-direction:column;-webkit-flex-direction:column;}
+.flex-center{display:flex;display:-webkit-flex;justify-content:center;-webkit-justify-content:center;align-content:center;-webkit-align-content:center;}
+
+.flex-left{flex:1;display:flex;display:-webkit-flex;justify-content:flex-start;-webkit-justify-content:flex-start;align-content:center;-webkit-align-content:center;}
+.flex-right{flex:1;display:flex;display:-webkit-flex;justify-content:flex-end;-webkit-justify-content:flex-end;align-content:center;-webkit-align-content:center;}
